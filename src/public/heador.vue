@@ -36,11 +36,12 @@ export default {
     // 设置字体大小为32px
     font-size: 0.1rem;
     // 设置组件整体的图片，使图片以外背景为白色，设置京东logo图片，使图片上下左右居中 ，禁止图片重复
-    background: #fff url(//m.jr.jd.com/spe/qyy/main/images/jr-logo.png) center center no-repeat;
+    //background: #fff url(//m.jr.jd.com/spe/qyy/main/images/jr-logo.png) center center no-repeat;
     // 使图片居中
-    background-size: auto 20%;
+    //background-size: auto 50%;
     // 提升Z坐标，避免被其他组件覆盖
     z-index: 100;
+    text-align: center;
     .left{
       position: relative;
       top: -20px;
@@ -51,8 +52,13 @@ export default {
       margin: -50px 0 0 18px;
     }
     .middle{
-      width: 10px;
-      height: 10px;
+      img {
+        position: relative;
+        right: -100px;
+        width: 110px;
+        height: 28px;
+        margin: auto;
+      }
     }
     .btnDownload{
       // 右浮动，实现左中右布局

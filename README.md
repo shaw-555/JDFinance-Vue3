@@ -1,9 +1,24 @@
-# JDFinance-Vue3
-update former project to Vue3
+# jdf
 
+## Project setup
+```
+npm install
+```
 
-## npm run dev 
-   to start the programme
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-## npm run buid
-    to build the programme
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
