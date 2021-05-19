@@ -1,4 +1,4 @@
-# 2021 年 5 月 16日
+# 2021 年 5 月 16 日
 ## 1.遇到的报错：
 ```
 [vite] Dep optimization failed with error:
@@ -18,3 +18,12 @@ npm i px2rem-loade --save-dev
 ```
 npm i lib-flexible --save
 ``` 
+
+# 2021 年 5 月 19 日
+路由配置
+1.安装vue-router
+2.创建route文件夹，在router文件夹内创建index.js文件
+3.在main.js 内引入 route/index.js 文件 ，并 App.use(router)
+4.在route/index.js 内 引入 createRouter 和 createWebHashHistory
+5.引入相关组件和输出router
+6.在App.vue内的template内调用 <router-view/>
