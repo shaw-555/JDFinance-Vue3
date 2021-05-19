@@ -2,7 +2,7 @@
   <div>
     <heador/>
     <home-slider/>
-    <!-- <panel title="hehe" :class="$style.panel"/> -->
+    <home-Ada/>
     <br>
     <br>
     <br>
@@ -33,6 +33,7 @@
 import navbar from '../../public/navbar.vue'
 import heador from '../../public/heador.vue'
 import HomeSlider from './components/slider.vue'
+import HomeAda from './components/ada.vue'
 import TheFooter from './components/footer.vue'
 export default{
   name: 'Thehome',
@@ -51,6 +52,7 @@ export default{
     navbar,
     heador,
     TheFooter,
+    HomeAda,
     HomeSlider
   }
 
