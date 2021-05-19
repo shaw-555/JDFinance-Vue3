@@ -1,15 +1,11 @@
 <template>
-    <!-- <HelloWorld msg="好好学习，天天运动" /> -->
-    <thehome/>
+    <router-view></router-view>
 </template>
 
 <script>
-import Thehome from './components/home/index.vue'
+
 
 export default {
-  name: 'App',
-  components: {
-    Thehome
-  }
+  name: 'App'
 }
 </script>
