@@ -50,7 +50,7 @@ export default {
     right: 0;
     //
     width: 100%;
-    height: 100px;
+    height: 70px;
     z-index: 100;
     background-color: #fff;
     div {

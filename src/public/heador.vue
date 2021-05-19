@@ -23,6 +23,8 @@ export default {
 
 <style lang="scss">
   .header{
+    background-color: #fff;
+    border: 0.1px gray solid;
     // 使字体为灰色
     color: #666;
     // 使文字在改行居中
@@ -45,6 +47,7 @@ export default {
     .left{
       position: relative;
       top: -20px;
+      left: 50px;
       font-size: 14px;
       // 确保文字垂直居中
       height: 15px;
@@ -57,6 +60,7 @@ export default {
         right: -100px;
         width: 110px;
         height: 28px;
+        top: -10px;
         margin: auto;
       }
     }

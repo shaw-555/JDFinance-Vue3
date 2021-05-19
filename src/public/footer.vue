@@ -58,30 +58,31 @@ export default {
         width: 100%;
         text-align: center;
         color: #999;
-        font-size: 24px;
+        font-size: 12px;
+        padding: 0px;
         >img{
           width: 100%;
-          height: 143px;
+          height: 71px;
         }
         &:nth-child(2){
           @include flex(row);
-          height: 186px;
+          height: 93px;
           box-sizing: border-box;
           >div{
             width: 33.3333%;
             text-align: center;
             box-sizing: border-box;
-            padding-top: 20px;
+            padding-top: 0px;
             img{
-              width: 90px;
-              height: 90px;
+              width: 45px;
+              height: 45px;
             }
             p{
-              font-size: 26px;
+              font-size: 13px;
               text-align: center;
               display: block;
               color: #999;
-              margin-top: 12px;
+              margin-top: 6px;
               white-space: nowrap;
               text-overflow: ellipsis;
               overflow: hidden;
@@ -89,9 +90,9 @@ export default {
           }
         }
         &:nth-child(n+3){
-          padding: 24px 0;
-          height: 38px;
-          line-height: 38px;
+          padding: 0px 0;
+          height: 19px;
+          line-height: 19px;
           border-top: 1px solid #ddd;
         }
       }
