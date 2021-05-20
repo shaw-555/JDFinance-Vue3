@@ -32,3 +32,10 @@ npm i lib-flexible --save
 vue-awesome-swiper对vue3支持的不太好
 所以使用了swiper。
 心得，静下心来读文档很重要
+
+# 2021 年 5 月 20 日
+实现页面路由跳动
+1.在组件内 引入 useRouter
+2.调用userRouter，并赋值给一个变量router
+3.在router对象上调用push方法，参数为路由地址
+4.讲 router.push 封装在一个函数内，并在return 返回

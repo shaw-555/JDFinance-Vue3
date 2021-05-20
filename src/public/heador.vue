@@ -23,6 +23,7 @@ export default {
 
 <style lang="scss">
   .header{
+    width: 100%;
     background-color: #fff;
     border: 0.1px gray solid;
     // 使字体为灰色
@@ -33,7 +34,7 @@ export default {
     // 使header固定在正上方
     position: fixed;
     top: 0;
-    left: -200px;
+    left: 0;
     right: 0;
     // 设置字体大小为32px
     font-size: 0.1rem;
@@ -47,7 +48,7 @@ export default {
     .left{
       position: relative;
       top: -20px;
-      left: 50px;
+      left: -40px;
       font-size: 14px;
       // 确保文字垂直居中
       height: 15px;
@@ -57,7 +58,7 @@ export default {
     .middle{
       img {
         position: relative;
-        right: -100px;
+        right: 0px;
         width: 110px;
         height: 28px;
         top: -10px;
