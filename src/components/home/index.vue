@@ -2,7 +2,7 @@
   <div>
     <heador/>
     <home-slider/>
-    <home-Ada/>
+    <home-novice/>
     <br>
     <br>
     <br>
@@ -33,7 +33,7 @@
 import navbar from '../../public/navbar.vue'
 import heador from '../../public/heador.vue'
 import HomeSlider from './components/slider.vue'
-import HomeAda from './components/ada.vue'
+import HomeNovice from './components/novice.vue'
 import TheFooter from './components/footer.vue'
 export default{
   name: 'Thehome',
@@ -52,8 +52,8 @@ export default{
     navbar,
     heador,
     TheFooter,
-    HomeAda,
-    HomeSlider
+    HomeSlider,
+    HomeNovice
   }
 
 }
