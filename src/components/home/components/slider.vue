@@ -1,7 +1,6 @@
 <template>
   <panel title="slider">
     <swiper
-      :direction="horizontal"
       :class="$style.content"
       :options="swiperOptions"
       :autoPlay="true"
