@@ -5,17 +5,9 @@
     <money-ada/>
     <money-money/>
     <money-adb/>
+    <money-finance/>
     <money-adc/>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <money-footer cname="money-footer"/>
     <navbar/>
   </div>
 </template>
@@ -28,6 +20,8 @@ import MoneyAdb from './components/adb.vue'
 import MoneyAdc from './components/adc.vue'
 import MoneySlider from './components/slider.vue'
 import MoneyMoney from './components/money.vue'
+import MoneyFooter from './components/footer.vue'
+import MoneyFinance from './components/finance.vue'
 export default {
   name: 'Money',
   components: {
@@ -37,11 +31,20 @@ export default {
     MoneyAdb,
     MoneySlider,
     MoneyAdc,
-    MoneyMoney
+    MoneyMoney,
+    MoneyFooter,
+    MoneyFinance
   }
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
   @import '../../assets/styles/reset.scss';
+  .money-footer {
+    ul {
+      li:first-child {
+        display: none;
+      }
+    }
+  }
 </style>
