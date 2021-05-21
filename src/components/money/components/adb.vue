@@ -9,7 +9,7 @@
 <script>
 import panel from '../../../core/panel'
 export default {
-  name: 'HomeAdb',
+  name: 'MoneyAdb',
   components: {
     panel
   }

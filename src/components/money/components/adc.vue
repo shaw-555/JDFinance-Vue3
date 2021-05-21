@@ -1,7 +1,7 @@
 <template>
-  <panel title="满减神卷" :class="$style.panel">
+  <panel title="理财专享" :class="$style.panel">
     <section :class="$style.content">
-      <img src="//img12.360buyimg.com/jrpmobile/jfs/t5842/235/8356236245/38364/2112fd7e/597a95d4Ne01da140.png?width=750&height=270" alt="">
+      <img src="//img12.360buyimg.com/jrpmobile/jfs/t7162/219/4755741/18941/4e51a5aa/597b066dNf6c7a972.jpg?width=750&height=120" alt="">
     </section>
   </panel>
 </template>
@@ -9,7 +9,7 @@
 <script>
 import panel from '../../../core/panel'
 export default {
-  name: 'MoneyAda',
+  name: 'MoneyAdc',
   components: {
     panel
   }
@@ -27,7 +27,7 @@ export default {
       img {
         width: 100%;
         display: block;
-        height: 120px;
+        height: 102px;
       }
     }
   }

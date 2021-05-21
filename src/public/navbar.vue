@@ -2,13 +2,13 @@
   <div :class="$style.panel">
     <!-- <router-link :to="{ name: 'home'}" tag="div"> -->
     <div>
-      <img src="//img12.360buyimg.com/jrpmobile/jfs/t3451/188/644771475/2428/800d7cb7/580f2435Nbfaa8055.png?width=66&height=66" alt="">
+      <img  @click="toHome" src="//img12.360buyimg.com/jrpmobile/jfs/t3451/188/644771475/2428/800d7cb7/580f2435Nbfaa8055.png?width=66&height=66" alt="">
       <p>首页</p>
      </div> 
     <!-- </router-link> -->
     <!-- <router-link :to="{ name: 'money'}" tag="div"> -->
-    <div>
-      <img src="//img12.360buyimg.com/jrpmobile/jfs/t3811/55/345433999/2930/116d3dd1/580f1e25N028a1f2c.png?width=66&height=66" alt="">
+    <div >
+      <img @click="toMoney" src="//img12.360buyimg.com/jrpmobile/jfs/t3811/55/345433999/2930/116d3dd1/580f1e25N028a1f2c.png?width=66&height=66" alt="">
       <p>理财</p>
     </div>
     <!-- </router-link> -->
@@ -34,8 +34,31 @@
 </template>
 
 <script>
+import { useRouter } from 'vue-router'
 export default {
-  name: 'navbar'
+  name: 'navbar',
+  setup () {
+    const router = useRouter()
+    const toHome = () => {
+      router.push("home")
+      console.log(1);
+    }
+    const toMoney = () => {
+      router.push("money")
+    }
+    const toIous = () => {
+      router.push("Ious")
+    }
+    const toRise = () => {
+      router.push("rise")
+    }
+    return {
+      toHome,
+      toMoney,
+      toIous,
+      toRise
+    }
+  }
 }
 </script>
 
