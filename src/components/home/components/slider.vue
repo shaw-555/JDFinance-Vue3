@@ -13,6 +13,7 @@
 </template>
 
 <script>
+// 使用swiper组件实现轮播
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import panel from '../../../core/panel'
 import 'swiper/swiper.scss'
