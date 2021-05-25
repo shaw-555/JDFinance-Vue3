@@ -4,6 +4,7 @@
     <rise-slider/>
     <rise-daily/>
     <rise-in/>
+    <rise-more/>
     <rise-footer/>
     <navbar />
   </div>
@@ -17,6 +18,7 @@ import RiseFooter from './components/footer.vue'
 import RiseSlider from './components/slider.vue'
 import RiseDaily from './components/daily.vue'
 import RiseIn from './components/in.vue'
+import RiseMore from './components/more.vue'
 
 export default{
   name: 'Rise',
@@ -27,7 +29,8 @@ export default{
     RiseFooter,
     RiseSlider,
     RiseDaily,
-    RiseIn
+    RiseIn,
+    RiseMore
   }
 
 }
