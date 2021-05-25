@@ -51,7 +51,7 @@ export default {
 <style lang="scss" module>
   @import "../../../assets/styles/element.scss";
   .panel {
-    margin-top: 100px !important;
+    margin-top: 10px !important;
     @include panel;
     .content {
       margin: 10px;

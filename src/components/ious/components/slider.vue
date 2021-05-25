@@ -5,8 +5,8 @@
       :options="swiperOptions"
       :autoPlay="true"
     >
-      <swiper-slide><img src="//img12.360buyimg.com/jrpmobile/jfs/t13744/11/2508939408/43213/58bfe502/5a421ff3N52d0a474.jpg?width=750&height=320" alt=""></swiper-slide>
-      <swiper-slide><img src="//img12.360buyimg.com/jrpmobile/jfs/t16138/325/817844900/36681/5d874455/5a422029Ncd678ea3.jpg?width=750&height=320" alt=""></swiper-slide>
+      <swiper-slide><img src="//img12.360buyimg.com/jrpmobile/jfs/t8491/303/504628479/60643/100648de/59a94358N92475fca.jpg?width=750&height=320" alt=""></swiper-slide>
+      <swiper-slide><img src="//img12.360buyimg.com/jrpmobile/jfs/t8437/321/1758527686/40952/f66d552f/59bf1f41N50d846f9.jpg?width=750&height=320" alt=""></swiper-slide>
       <swiper-slide><img src="//img12.360buyimg.com/jrpmobile/jfs/t13465/324/2563794460/43029/3ffca963/5a421f83Ne8089231.jpg?width=750&height=320" alt=""></swiper-slide>
     </swiper>
   </panel>
@@ -21,7 +21,7 @@ import 'swiper/components/scrollbar/scrollbar.scss';
 import SwiperCore, {  Scrollbar, A11y } from 'swiper'
 SwiperCore.use([ Scrollbar, A11y])
 export default {
-  name: 'HomeSlider',
+  name: 'IousSlider',
   components: {
     panel,
     Swiper,SwiperSlide
@@ -70,6 +70,7 @@ export default {
   @import "../../../assets/styles/element.scss";
   .panel{
     @include panel;
+    margin-top: 130px;
     >h4 {
       display: none;
     }
